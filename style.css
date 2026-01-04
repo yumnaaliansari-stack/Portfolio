@@ -5,11 +5,20 @@
 }
 :root{
    --purple: #5E3BEE;
+   --waterblue:#F5FCFF;
+   --blue:#0F1221;
 }
+
 .purple{
-    color: var(--purple);
+    color: var(--purple)!important;
 }
 .btn-purple{
     border: 1px solid var(--purple);
     color: var(--purple);
+}
+.blue{
+  color: var(--blue)!important;
+}
+.bgc{
+    background-color:var(--waterblue)!important;
 }
