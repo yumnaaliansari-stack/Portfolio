@@ -43,7 +43,6 @@
     font-style: SemiBold;
     font-size: 15px;
     line-height: 150%;
-    letter-spacing: 0%;
     color: #282938;
 }
 
@@ -53,35 +52,72 @@
     font-style: Bold;
     font-size: 50px;
     line-height: 120%;
-    letter-spacing: 0%;
+    color: #282938 !important;
 
 }
 
 .heroct {
     font-family: roboto;
     font-weight: 350;
-    font-style: Regular;
     font-size: 18px;
     line-height: 150%;
-    letter-spacing: 0%;
     color: #1C1E53;
 
 }
 
 .skl-ct {
-    width: 1024;
-    height: 130.3333282470703;
     gap: 21.33px;
     opacity: 1;
+    display: flex;
+    flex-direction: column;
 
+
+}
+.gallery{
+height: 370.3333435058594px;
+opacity: 1;
+gap: 42.67px;
+
+}
+.bgcg {
+    background-color: var(--waterblue) !important;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10.67px;
 }
 
 .img {
     width: 80px;
     height: 80px;
-    gap: 13px;
+    gap: 25px;
     opacity: 1;
     border-radius: 10px;
-    padding: 5x;
+    padding: 5px;
 
+}
+.gap{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.ghc{
+    color: #282938 !important;
+}
+.gbc{
+    color: #1C1E53 !important;
+}
+.pr{
+    font-family: roboto;
+font-weight: 700;
+font-style: Bold;
+font-size: 48px;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+
+}
+.gap-p{
+    gap: 106.67px;
 }
