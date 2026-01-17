@@ -121,3 +121,6 @@ vertical-align: middle;
 .gap-p{
     gap: 106.67px;
 }
+i{
+    transform: rotate(320deg);
+}
